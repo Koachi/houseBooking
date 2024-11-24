@@ -109,7 +109,7 @@ const Testimonial = () => {
                 />
                 <div className="space-y-2">
                   <h1 className='text-xl font-bold text-black/60 dark:text-primary font-cursive'>{name}</h1>
-                  <p classname="text-sm font-bold text-black/45 dark:text-white">Developer</p>
+                  <p className="text-sm font-bold text-black/45 dark:text-white">Developer</p>
                 </div>
               </div>
             </div>

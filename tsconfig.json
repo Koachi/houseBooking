@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2016", /* Set the JavaScript language version for emitted JavaScript */
+    "module": "commonjs", /* Specify what module code is generated */
+    "resolveJsonModule": true, /* Enable importing .json files */
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules */
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is correct in imports */
+    "skipLibCheck": true, /* Skip type checking all .d.ts files */
+    "strict": true, /* Enable all strict type-checking options */
+    "noEmit": true, /* Disable emitting files from a compilation */
+    "allowJs": true, /* Allow JavaScript files to be part of your program */
+    "incremental": true, /* Save .tsbuildinfo files to allow for incremental compilation */
+    "moduleResolution": "node", /* Specify module resolution strategy */
+    "isolatedModules": true, /* Ensure that each file can be safely transpiled without relying on other imports */
+    "jsx": "preserve", /* Specify how JSX is handled */
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ], /* Specify a set of bundled library declaration files */
+    "paths": {
+      "@/*": ["./src/*"] /* Path mapping configuration */
+    },
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/app/layout.js" /* Include JS file if it's part of the build */
+  ],
+  "exclude": [
+    "node_modules" /* Exclude node_modules from compilation */
+  ]
+}
